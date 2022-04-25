@@ -12,3 +12,6 @@ function addList() {
     new_item.innerText = user_input.value; //The .value didn't work after the getElementById, but it worked after the variable's name.
     user_input.value = "";
 }
+
+var clicked_item = document.getElementsByTagName("p");
+clicked_item.addEventListener("click", remove(element))
