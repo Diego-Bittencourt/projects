@@ -18,7 +18,6 @@ html {
 .outtercontainer {
     margin: 0 auto;
     max-width: 1000px;
-
 }
 
 h1 {
@@ -46,4 +45,23 @@ h1 {
     font-weight: bold;
     font-family: 'DM Serif Display', serif;
     letter-spacing: 0.3rem;
+}
+
+.list-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+p {
+    width: 100%;
+    height: 5vh;
+    min-height: 2.5rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 5px;
+    margin: 2vh auto;
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding: 0 2%;
+    vertical-align: middle;
 }
