@@ -9,6 +9,7 @@
     --green: #05721b;
     --lightgray: #4b4b4b;
     --white: #e6e6e6;
+    --red: #e44444;
 }
 
 html {
@@ -64,4 +65,15 @@ p {
     font-weight: bold;
     padding: 0 2%;
     vertical-align: middle;
+}
+
+span {
+    background-color: var(--red);
+    margin: 0 10px;
+    color: var(--white);
+    vertical-align: middle;
+}
+
+.done {
+    background-color: var(--green);
 }
